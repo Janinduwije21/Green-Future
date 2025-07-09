@@ -1,0 +1,163 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #3ecf63, #3498db);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.hero-buttons .btn {
+    background: white;
+    color: #2c3e50;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Mission Section */
+.mission {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+}
+
+.mission h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.link-btn {
+    display: inline-block;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Cards Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.img-border {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.2rem;
+    border-radius: 50%;
+    background-color: rgba(62, 207, 99, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card-main {
+    width: 40px;
+    height: 40px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+    color: #222;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.link-btn {
+    font-weight: 600;
+    color: #00796b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link-btn:hover {
+    color: #004d40;
+}
+
+.img-card-sub {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* CTA */
+.cta {
+    background: linear-gradient(135deg, #3ecf63, #3498db);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.cta .btn {
+    background: white;
+    color: #2c3e50;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
