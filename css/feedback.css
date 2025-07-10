@@ -1,0 +1,260 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #3ecf63, #3498db);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/*form*/
+
+.form-container{
+    border-radius: 50px;
+    background-color: white;
+    margin: 50px 0 0 ;
+    height: 1380px;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+
+.feed-topic,.feed-descript{
+    text-align: center;
+
+}
+.feed-topic{
+    font-size: 25px;
+
+}
+.feed-descript{
+    color: #777777;
+    font-weight: 400;
+}
+.form-container hr{
+    width: 80%;
+
+}
+.name{
+    margin: 50px 20px 20px 90px;
+}
+.mail{
+    margin-top: 20px;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name input{
+    margin-left: 10px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.req{
+    color: red;
+}
+
+
+textarea{
+    resize: none;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+
+.form-buttons{
+    margin-top: 20px;
+
+}
+#formpreview{
+    margin-right: 40px;
+    background-color:#ffffff;
+    color: #133e87;;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #133E87;
+
+}
+#formpreview:hover{
+
+    background-color:#133e87;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius:5px;
+
+    border: 2px solid #133e87;
+}
+#formsubmit{
+
+    background-color:#133e87;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    border: 2px solid #133e87;
+}
+#formsubmit:hover{
+
+    background-color:#CBDCEB;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    border: 2px solid #CBDCEB;
+}
+.rating-scale {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 20px 0 ;
+    gap: 15px;
+
+}
+.rating-scale input[type="radio"]{
+    display: none;
+}
+
+.rating-scale input[type="radio"]:checked + label {
+    background-color: #133e87;
+    color: white;
+    border-color: #133e87;
+}
+
+
+.rating-scale label {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.rating-scale label:hover {
+    background-color: #e0e0e0;
+}
+.scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #666;
+}
+
+
+
+.visitor-labels-txt {
+    display: flex;
+    margin-left: 47%;
+
+}
+.ys1{
+    margin-left: 19%;
+}
+.group-option{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 20px 0 ;
+    gap: 15px;
+}
+.group-option input[type="radio"]{
+    display: none;
+}
+.group-option input[type="radio"]:checked + label {
+    background-color: #133e87;
+    color: white;
+    border-color: #133e87;
+}
+.group-option label {
+    display: inline-block;
+    color:#777777;
+    width: 60px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.group-option label:hover {
+    background-color: #e0e0e0;
+}
+.txtara{
+    margin-top: 20px;
+}
+.stis-grp{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 130px;
+    font-size: 12px;
+    color: #777777;
+}
+label{
+    font-weight: 400;
+}
+.preview-container{
+    border-radius: 50px;
+    background-color: white;
+    margin: 20px 0 0 ;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+
+}
+.pre-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.preview-container hr{
+    width:80%;
+}
+.preview-container h1{
+    text-align: center;
+    font-size: 30px;
+}
+.preview-container p{
+
+    font-weight: 400;
+}
+
+.gap-bet{
+    margin-left:60px  ;
+}
+.preview-content,.centering{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.txtarea-grp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
