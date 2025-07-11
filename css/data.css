@@ -36,7 +36,11 @@ table th, table td {
 }
 
 table th {
+
     background-color: #38b55d;
+
+    background-color: #3ecf63;
+
     color: white;
     font-size: 18px;
 }

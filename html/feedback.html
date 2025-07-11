@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-left">
+        <img class="img-logo" src="../assets/icons/logo.png" alt="Volunteer">
+        <p class="logo-text">Green Future</p>
+    </div>
+    <ul class="nav-right">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./volunteer.html">Volunteer</a></li>
+        <li><a href="./data.html">Data</a></li>
+        <li><a href="./profile.html">Profile</a></li>
+        <li><a href="./feedback.html">Feedback</a></li>
+        <li><a href="./team.html">Team</a></li>
+        <li><a href="./siteMap.html">Site Map</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Feedback</h1>
+    <p>Help us improve our climate action initiatives with your valuable feedback.</p>
+</section>
+
+<!-- Feedback Form -->
+<main>
+    <section class="feedback">
+        <div class="form-container">
+            <form action="mailto:info@oceanguardians.org" id="feedbackform" class="feedback-form" method="post">
+                <br>
+                <h2 class="feed-topic">Website Client Feedback Form</h2>
+                <h5 class="feed-descript">We Would Love To Hear From You! Please Take A <br>
+                    Moment To Let Us Know About Your Experience</h5>
+                <hr>
+                <div class="name">
+                    <label for="nameinput"><b class="req">*</b>Enter Your Name <span class="gap-bet"></span>:- </label>
+                    <input type="text" id="nameinput" placeholder="John Doe" required>
+                    <br>
+                    <div class="mail">
+                        <label for="email"><b class="req">*</b>Enter Your Email Address :-</label>
+                        <input type="text" id="email" placeholder="Johndoe@gmail.com" required>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="centering"><label for="yes1">Was this your first time visiting?</label></div>
+                <div class="group-option">
+                    <input type="radio" name="visiting" id="yes1" value="Yes">
+                    <label for="yes1">Yes</label>
+                    <input type="radio" name="visiting" id="no1" value="No">
+                    <label for="no1">No</label>
+                </div>
+
+                <div class="centering"><label for="yes2">Was this website informative and easy to navigate through?</label></div>
+                <div class="group-option">
+                    <input type="radio" name="informative" id="yes2" value="Yes" required>
+                    <label for="yes2">Yes</label>
+                    <input type="radio" name="informative" id="no2" value="No" required>
+                    <label for="no2">No</label>
+                </div>
+
+                <div class="centering"><label for="Suggest">If "NO", Suggest any improvements for the future</label></div><br>
+                <div class="txtarea-grp">
+                    <textarea name="suggestion" id="Suggest" rows="6" cols="70" class="txtara"></textarea><br>
+                </div>
+
+                <div class="centering"><label for="rating1"><b class="req">*</b>How satisfied with our services?</label></div><br>
+                <div class="rating-scale">
+                    <input type="radio" id="rating1" name="satisfaction" value="Extremely dissatisfied">
+                    <label for="rating1">1</label>
+                    <input type="radio" id="rating2" name="satisfaction" value="Very dissatisfied">
+                    <label for="rating2">2</label>
+                    <input type="radio" id="rating3" name="satisfaction" value="Dissatisfied">
+                    <label for="rating3">3</label>
+                    <input type="radio" id="rating4" name="satisfaction" value="Somewhat dissatisfied">
+                    <label for="rating4">4</label>
+                    <input type="radio" id="rating5" name="satisfaction" value="Neutral/Indifferent">
+                    <label for="rating5">5</label>
+                    <input type="radio" id="rating6" name="satisfaction" value="Somewhat satisfied">
+                    <label for="rating6">6</label>
+                    <input type="radio" id="rating7" name="satisfaction" value="Satisfied">
+                    <label for="rating7">7</label>
+                    <input type="radio" id="rating8" name="satisfaction" value="Very satisfied">
+                    <label for="rating8">8</label>
+                    <input type="radio" id="rating9" name="satisfaction" value="Extremely satisfied">
+                    <label for="rating9">9</label>
+                    <input type="radio" id="rating10" name="satisfaction" value="Completely satisfied">
+                    <label for="rating10">10</label>
+                </div>
+                <div class="stis-grp">
+                    <span>Not <br>Satisfied</span>
+                    <span>Extremely <br>Satisfied</span>
+                </div><br>
+
+                <div class="centering"><label for="yes3"><b class="req">*</b>Would you recommend our services?</label></div>
+                <div class="group-option">
+                    <input type="radio" name="recommendation" id="yes3" value="Yes">
+                    <label for="yes3">Yes</label>
+                    <input type="radio" name="recommendation" id="no3" value="No">
+                    <label for="no3">No</label>
+                </div>
+
+                <div class="txtarea-grp">
+                    <div class="centering"><label for="additionq">Do you have additional Questions or Request?</label></div><br>
+                    <textarea name="addition" id="additionq" rows="8"></textarea><br>
+                    <div class="form-buttons">
+                        <input type="reset" id="formpreview" value="Reset">
+                        <input type="submit" id="formsubmit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-links">
+        <div class="footer-column">
+            <h4>Content Pages</h4>
+            <ul>
+                <li><a href="content_ST1.html">Content 01</a></li>
+                <li><a href="content_ST2.html">Content 02</a></li>
+                <li><a href="content_ST3.html">Content 03</a></li>
+                <li><a href="content_ST4.html">Content 04</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <div class="logo">
+                <img src="../assets/icons/logo.png" alt="Ocean Guardians Logo" class="footer-logo-img" >
+                <p class="logo-text">Green Future</p>
+            </div>
+            <p>Email: <a href="mailto:info@oceanguardians.org">info@oceanguardians.org</a></p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Page Editors</h4>
+            <ul>
+                <li><a href="pageEditor_ST1.html">Student 1: Editor Page</a></li>
+                <li><a href="pageEditor_ST2.html">Student 2: Editor Page</a></li>
+                <li><a href="pageEditor_ST3.html">Student 3: Editor Page</a></li>
+                <li><a href="pageEditor_ST4.html">Student 4: Editor Page</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Validation</h4>
+            <ul>
+                <li><a href="validation_ST1.html">Student 1: Validation</a></li>
+                <li><a href="validation_ST2.html">Student 2: Validation</a></li>
+                <li><a href="validation_ST3.html">Student 3: Validation</a></li>
+                <li><a href="validation_ST4.html">Student 4: Validation</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Ocean Guardians. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
