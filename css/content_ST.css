@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Content Post Styles */
+.content-post {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.content-post img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Links Below Main Image */
+.button-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.button-links a {
+    text-decoration: none;
+    color: #142f5e;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #142f5e;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-links a:hover {
+    background-color: #142f5e;
+    color: white;
+}
+
+/* Content Containers */
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1100px;
+    background: #CBDCEB;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-container img {
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-container .text {
+    width: 50%;
+}
+
+.content-container .text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #0d0917;
+}
+
+.content-container .text p {
+    font-size: 1rem;
+    color: #0d0917;
+    line-height: 1.6;
+}
+
+/* Alternating Layout */
+.content-container:nth-child(odd) {
+    flex-direction: row-reverse; /* Image on the right, text on the left */
+}
+
+.content-container:nth-child(even) {
+    flex-direction: row; /* Image on the left, text on the right */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Navigation Bar */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(4, 17, 45, 0.9);
+        padding: 10px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    /* Content Post */
+    .content-post img {
+        height: 300px;
+    }
+
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+
+    /* Button Links */
+    .button-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-links a {
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Content Containers */
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .content-container .text {
+        width: 100%;
+    }
+
+    /* Override alternating layout for smaller screens */
+    .content-container:nth-child(odd),
+    .content-container:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Navigation Bar */
+    .logo img {
+        height: 50px;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    /* Content Post */
+    .content-post img {
+        height: 200px;
+    }
+
+    .overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .overlay p {
+        font-size: 0.9rem;
+    }
+
+    /* Button Links */
+    .button-links a {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    /* Content Containers */
+    .content-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
